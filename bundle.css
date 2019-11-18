@@ -494,6 +494,17 @@ body {
   width: 100%;
 }
 
+.authentication {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+  padding: 10px 0 12px;
+}
+
+.authentication__text {
+  margin: 3px 20px 0 0;
+}
+
 .header {
   position: relative;
   display: flex;
