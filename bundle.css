@@ -487,11 +487,23 @@ body {
 
 .resize {
   max-width: 512px;
-  margin: 40px auto 0;
+  margin: 20px auto 0;
 }
 
 .resize__range {
   width: 100%;
+}
+
+.resize__text {
+  width: 50px;
+  height: 40px;
+  margin: 0 auto 10px;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.541327);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.541327);
+  border-radius: 3px;
 }
 
 .authentication {
